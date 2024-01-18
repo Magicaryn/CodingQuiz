@@ -159,8 +159,18 @@ initial = ""
 for( var j = 0; j < listofinitials.length; j++){
 initial += `<li>${listofinitials[j]}</li>`
    highScoreList.innerHTML = initial
-}}
+}
+var clearButton = document.createElement("button");
+clearButton.textContent = "Clear Highscores";
+highScoreList.appendChild(clearButton);
 
+clearButton.addEventListener("click", clearScores)
+
+function clearScores() {
+    localStorage.clear();
+}
+}
+ 
 
 
 start.addEventListener("click", startQuiz);

@@ -2,8 +2,10 @@ header {
     padding: 3px;
     display: inline;
 }
-.highscorebox {
+.highscore-box {
+    background-color: white;
     color: indigo;
+    font-weight: bold;
     float: left;
 }
 
@@ -13,8 +15,8 @@ header {
 
 .quiz {
     margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
+    margin-right:200px;
+    padding: 30px;
     display: block;
     text-align: center;
 
@@ -31,13 +33,36 @@ header {
 
 
 #right-answer {
+    margin-top: 5px;
     border-top: 1px solid gray;
     color: gray;
     font-style: italic;
 }
 
 #wrong-answer {
+    margin-top: 5px;
     border-top: 1px solid gray;
     color: gray;
     font-style: italic;
 }
+
+button {
+    background-color: indigo;
+    color: white;
+    width: auto;
+}
+
+#answers-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    
+}
+
+#game-screen {
+
+    justify-content: center;
+    align-items: center;
+}
+
