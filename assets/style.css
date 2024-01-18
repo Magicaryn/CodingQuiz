@@ -1,0 +1,43 @@
+header {
+    padding: 3px;
+    display: inline;
+}
+.highscorebox {
+    color: indigo;
+    float: left;
+}
+
+.timerelement {
+    float: right;
+}
+
+.quiz {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+
+}
+
+.display {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+#right-answer {
+    border-top: 1px solid gray;
+    color: gray;
+    font-style: italic;
+}
+
+#wrong-answer {
+    border-top: 1px solid gray;
+    color: gray;
+    font-style: italic;
+}
